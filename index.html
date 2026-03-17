@@ -140,7 +140,7 @@
     <p class="hero-distinction">Other tools show you the data. We tell you what it means.</p>
 
     <div class="capture-form">
-      <form id="hero-form" action="/api/submit" method="POST">
+      <form id="hero-form" novalidate action="/api/submit" method="POST">
         <div class="input-row">
           <input type="text" name="name" placeholder="First name" autocomplete="given-name" required />
           <input type="date" name="birth_date" autocomplete="bday" required title="Date of birth" />
@@ -223,7 +223,7 @@
       <h2>Free.<br /><em>Takes 30 seconds.</em></h2>
       <p class="section-sub">Enter your birth details. We'll interpret your chart and send it straight to your inbox.</p>
       <div class="capture-form">
-        <form id="bottom-form" action="/api/submit" method="POST">
+        <form id="bottom-form" novalidate action="/api/submit" method="POST">
           <div class="input-row">
             <input type="text" name="name" placeholder="Your first name" required />
             <input type="date" name="birth_date" required />
